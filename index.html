@@ -2,39 +2,124 @@
 <html lang="fr">
 
 <head>
-  <title> Booki</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=320" />
-  <meta name="viewport" content="width=device-width" />
 
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-  <link href="styles.css/styles.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <meta name="google-site-verification" content="g_p0XZ2oWk4-WIp1xi39VJNtdGsVVaMJRXLhtLliBAI" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <!--<link href="styles.css/styles.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="g_p0XZ2oWk4-WIp1xi39VJNtdGsVVaMJRXLhtLliBAI">
+    <script src="https://kit.fontawesome.com/08e9e14b21.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-    <header class="header">
+    <header class="proj-header">
         <div id="logo">
             <img src="images/logo/ohmyfood.png">
         </div>
-        <div class="position" aria-placeholder="Paris,Bellevile" >
+        <div class="position" aria-placeholder="Paris,Bellevile">
             <h2> Paris,Bellevile</h2>
 
         </div>
     </header>
 
-<section class="description">
-<h1>Réservez le menu qui vous convient</h1>
-<p> Découvrez des restauraants d'exception,sélècionnés par nos soins.</p>
+    <section class="proj-description">
+        <h1>Réservez le menu qui vous convient</h1>
+        <p> Découvrez des restauraants d'exception,sélècionnés par nos soins.</p>
 
-</section>
+        <form><button class="Proj-description__btn" type="button">
+                Explorer nos restaurants
+            </button>
+        </form>
+    </section>
+
+    <nav class="proj-Fonctionnement">
+        <H1>Fonctionnement</H1>
+
+        <button class="Proj-fonctionnement__btn" type="Button">
+            Choisissez un restaurant
+        </button>
+
+        <button class="Proj-fonctionnement__btn" type="Button">
+            Composez votre menu
+        </button>
+
+        <button class="Proj-fonctionnement__btn" type="Button">
+            Dégustez au restaurant
+        </button>
+    </nav>
+
+    <section id="Proj-restaurants">
+        <h1>restauraants</h1>
+
+        <div class="Proj-restaurants__Nouveau">
+            <a href="html/palettedugoût.html"> 
+                <div class="Proj-restaurants__image" id="Ménilmontant">
+                <div class="Proj-restaurants__texte">
+                    <i class="fa-thin fa-heart"></i>
+
+                    <h3> La palette du goût</h3>
+                    <p>Ménilmontant</p>
+
+                </div>
+                
+            </div>
+            </a>
+        </div>
+
+
+
+        <div class="Proj-restaurants__Nouveau">
+            <div class="Proj-restaurants__image" id="Charonne">
+                <div class="Proj-restaurants_texte">
+                    <i class="fa-thin fa-heart"></i>
+                    <h3> La note enchantée</h3>
+                    <p>Charonne</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Proj-restaurants__image" id="Cité Rouge">
+            <div class="Proj-restaurants__texte">
+                <i class="fa-thin fa-heart"></i>
+                <h3> A la francaise</h3>
+                <p>cité Rouge</p>
+            </div>
+        </div>
+
+        <div class="Proj-restaurants__image" id="Folie-Méricourt">
+            <div class="Proj-restaurants__texte">
+                <i class="fa-thin fa-heart"></i>
+                <h3> La palette du goût</h3>
+                <p>Folie-Méricourt</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="fondnoir">
+        <div class="foot">
+            <div>
+                <h1>ohmyfood</h1>
+                <ul>
+                    <i class="fal fa-utensils"></i>
+                    <li><a href=#>Proposer un restauraant</a></li>
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <li><a href=#>Devenir partenaire</a></li>
+                    <li><a href=#>Mentions légales</a></li>
+                    <li><a href=#>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
