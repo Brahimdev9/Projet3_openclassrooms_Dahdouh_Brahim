@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
+        url('raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    @font-face {
+        font-family: 'MyWebFont';
+        src: url('WebFont.eot');
+        src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+            url('WebFont.woff') format('woff'),
+            url('WebFont.ttf') format('truetype'),
+            url('WebFont.svg#webfont') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    
+    html, body {
+        display: flex;
+        height: 100vw;
+    
+    }
+    body {
+        font-family: "Raleway", "Sans serif";
+         display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0;
+     }
+     a {
+         text-decoration: none;
+         color: initial;
+     }
+     
+     
+     #logo img{
+         display: block;
+         margin: auto;
+         width: 45%;
+     }
+    .proj-header{
+        margin-top: 20px;
+    }
+    .proj-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+.position{
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 65%;
+}
+   .proj-description h1, p{
+        text-align: center;
+        max-width: 80%;
+        margin-top: 30px;
+    }
+    .projet-description_btn{
+        margin-top: 15px;
+        margin-bottom: 15%;
+    }
+    .Proj-description__btn{
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding: 0.7rem 1.4rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(0deg, #9356DC , #FF79DA);
+
+    }
+    .proj-description p{
+    margin-top: -10px;
+    }
+    .proj-Fonctionnement{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.Proj-fonctionnement__btn{
+    display: flex;
+}
