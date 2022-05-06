@@ -6,18 +6,19 @@
     font-style: normal;
 
 }
-    @font-face {
-        font-family: 'MyWebFont';
-        src: url('WebFont.eot');
-        src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-            url('WebFont.woff') format('woff'),
-            url('WebFont.ttf') format('truetype'),
-            url('WebFont.svg#webfont') format('svg');
-        font-weight: normal;
-        font-style: normal;
+font-face {
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+        url('WebFont.woff') format('woff'),
+        url('WebFont.ttf') format('truetype'),
+        url('WebFont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
     
-    }
-    
+
     html, body {
         display: flex;
         height: 100vw;
@@ -82,8 +83,81 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+     
 }
 
 .Proj-fonctionnement__btn{
     display: flex;
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding: 1.3rem 5rem;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+    background-color: whitesmoke;
 }
+.proj-Fonctionnement h1{
+    
+    margin-right: auto;
+    margin-left: 19px;
+}
+.Proj-fonctionnement__btn:hover{
+    background-color: lavender;
+    box-shadow: 0px 0px 35px #dadada;
+}
+#Ménilmontant {
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg")
+}
+#Charonne{
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+}
+#Cité_Rouge{
+    background-image: url("../images/restaurants/Ménilmontant.jpg");
+}
+#Folie_Méricourt{
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+.Proj-restaurants__image{
+        height: 210px;
+        background-size: cover;
+        background-position: bottom;
+        border-radius: 15px 15px 0 0;
+        width: 100%;
+}
+.Proj-restaurants__texte{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 97%;
+    padding-top: 199px;
+}
+.Proj-restaurants__texte p{
+    margin-top: -12px;
+    margin-bottom: 8px;
+    margin-right: 69%;
+    width: 40%;
+}
+.Proj-restaurants__texte i{
+    margin-left: 27%;
+
+}
+#Proj-restaurants h1{
+        margin-left:5%;
+    
+}
+.Proj-restaurants__Nouveau{
+    
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 35px #dadada;
+        display: block;
+        margin: auto;
+        padding-bottom: 90px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        width: 90%;
+}
+
