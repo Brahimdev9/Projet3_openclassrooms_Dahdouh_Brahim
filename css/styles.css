@@ -17,15 +17,21 @@ font-face {
     font-style: normal;
 
 }
+
     
 
     html, body {
         display: flex;
         height: 100vw;
+        
     
     }
+    body i{
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+    }
     body {
-        font-family: "Raleway", "Sans serif";
+        font-family: 'Roboto', sans-serif;
          display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -42,8 +48,9 @@ font-face {
          margin: auto;
          width: 45%;
      }
+
     .proj-header{
-        margin-top: 20px;
+        margin-top: 35px;
     }
     .proj-description{
         display: flex;
@@ -59,26 +66,31 @@ font-face {
 }
    .proj-description h1, p{
         text-align: center;
-        max-width: 80%;
+        max-width: 85%;
         margin-top: 30px;
+    }
+    .proj-description h1{
+        max-width: 100%;
     }
     .projet-description_btn{
         margin-top: 15px;
         margin-bottom: 15%;
     }
     .Proj-description__btn{
-    border-radius: 1rem 1rem 1rem 1rem;
-    padding: 0.7rem 1.4rem;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 16px 22px;
     cursor: pointer;
     border: none;
     color: white;
     font-size: 16px;
     background: linear-gradient(0deg, #9356DC , #FF79DA);
-
+    box-shadow: 5px 5px 5px lightgray;
     }
     .proj-description p{
     margin-top: -10px;
+    font-size: 18px;
     }
+
     .proj-Fonctionnement{
      display: flex;
      flex-direction: column;
@@ -94,16 +106,26 @@ font-face {
     border: none;
     margin-top: 15px;
     background-color: whitesmoke;
+    box-shadow: 1px 5px 5px lightgrey;
 }
 .proj-Fonctionnement h1{
-    
+    margin-top: 14%;
     margin-right: auto;
-    margin-left: 19px;
+    margin-left: 20px;
+}
+.proj-Fonctionnement p{
+    text-align: center;
+    max-width: 100%;
+    margin-top: inherit;
+} 
+Proj-fonctionnement__btn i{
+margin-left: 50px;
 }
 .Proj-fonctionnement__btn:hover{
     background-color: lavender;
     box-shadow: 0px 0px 35px #dadada;
 }
+
 #Ménilmontant {
     background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg")
 }
@@ -116,6 +138,10 @@ font-face {
 #Folie_Méricourt{
     background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
+#Proj-restaurants{
+    background-color: whitesmoke;
+    margin-top: 20%;
+}
 
 .Proj-restaurants__image{
         height: 210px;
@@ -127,21 +153,28 @@ font-face {
 .Proj-restaurants__texte{
     margin-top: -10px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
-    width: 97%;
-    padding-top: 199px;
+    width: 99%;
+    padding-top: 210px;
 }
 .Proj-restaurants__texte p{
     margin-top: -12px;
     margin-bottom: 8px;
     margin-right: 69%;
     width: 40%;
+    text-align: initial;
+    font-weight: lighter;
+    font-size: 19px;
 }
 .Proj-restaurants__texte i{
-    margin-left: 27%;
+    margin-left: 80%;
+    margin-top: -12%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    font-weight: 100;
 
 }
 #Proj-restaurants h1{
@@ -161,3 +194,27 @@ font-face {
         width: 90%;
 }
 
+.fondnoir{
+    background-color: #303030;
+    color: white;
+}
+.fondnoir a{
+    color: #dadada;
+}
+ul{
+    list-style-type: none;
+    padding-left: 25px;
+}
+li{
+    margin-bottom: 5px;
+}
+.fondnoir h1{
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: Shrikhand;
+    margin-top: 20px;
+}
+.fondnoir i{
+    font-size: 13px;
+    margin-right: 5px;
+}
