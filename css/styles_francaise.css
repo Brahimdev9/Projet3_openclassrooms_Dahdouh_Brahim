@@ -62,8 +62,9 @@ body {
  width: 100%;
  }
  #images{
-    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg")
+    background-image: url("../images/restaurants/raleway-variablefont_wght-webfont")
  }
+ 
  .titre{
      background-color: whitesmoke;
      margin-top: -50px;
@@ -108,15 +109,10 @@ h5{
     box-shadow: 0px 0px 35px gainsboro;
     list-style: none;
     
-}
-.Menu li {
     
-        Animation-name : fade ;
-        Animation-delay : 2s ;
-        Animation-duration : 3s ;
-        Animation-iteration-count : infinite ;
-        
 }
+
+
 .Menu_texte{
     padding-left: 10px;
     padding-top: 7px;
@@ -139,6 +135,7 @@ h5{
     padding-bottom: 10px;
     font-size: 15px;
     font-weight: 900;
+    transform: scale(1);
 }
 
 .projet-description_btn{
