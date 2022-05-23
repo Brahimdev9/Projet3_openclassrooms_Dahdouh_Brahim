@@ -1,0 +1,19 @@
+{
+  "name": "projet3_dahdouh_brahim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass.scss:css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brahimdev9/Projet3_openclassrooms_Dahdouh_Brahim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brahimdev9/Projet3_openclassrooms_Dahdouh_Brahim/issues"
+  },
+  "homepage": "https://github.com/Brahimdev9/Projet3_openclassrooms_Dahdouh_Brahim#readme"
+}

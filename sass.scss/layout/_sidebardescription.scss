@@ -1,0 +1,27 @@
+.proj-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: whitesmoke;
+	h1 {
+		text-align: center;
+		max-width: 85%;
+		margin-top: 30px;
+		max-width: 100%;
+	}
+	p {
+		margin-top: -10px;
+		font-size: 18px;
+	}
+}
+.position {
+	background-color: gainsboro;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 65%;
+}
+p {
+	text-align: center;
+	max-width: 85%;
+	margin-top: 30px;
+}
