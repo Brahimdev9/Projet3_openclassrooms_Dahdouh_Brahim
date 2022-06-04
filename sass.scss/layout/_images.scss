@@ -25,10 +25,17 @@
   #Folie_Méricourt {
     background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   }
+  @media (max-width: 700px) {
 .images_goût{
     height: 250px;
     background-size: cover;
     background-position: center;
     width: 100%;
     }
-    
+  }
+  .images_goût{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    }

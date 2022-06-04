@@ -1,17 +1,27 @@
 body {
-    display: flex;
+    display: block;
     height: 100vw;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
   
     i {
       font-family: "Font Awesome 6 Free";
       font-weight: 900;
     }
   
-    font-family: 'Roboto', sans-serif;
+   
+  }
+  
+
+  @media (max-width: 700px){
+   body{ 
     display: flex;
+    height: 100vw;
+    font-family: 'Roboto', sans-serif;
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0;
+   }
   }
-  
-  

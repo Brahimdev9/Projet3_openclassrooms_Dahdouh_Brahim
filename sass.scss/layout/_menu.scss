@@ -1,18 +1,40 @@
-#images{
-    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg")
-    }
- #images__francaise{
-     background-image: url("../images/restaurants/Ménilmontant.jpg")
- }
-#images__enchantée{
-    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-}
-#images__délice{
-    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-}
+
 .Menu {
-    background-color: whitesmoke;
-  }
-  .Menu i {
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+  background-color: whitesmoke;
+
+ i {
+  list-style: none;
+  position: absolute;
+  margin-left: 77%;
+  margin-top: -12%;
+  font-size: 25px;
+  visibility: hidden;
+}
+.entrées{
+  margin-left: 12px;
+  margin-right: 3%;
+}
+.plats{
+  margin-top: -85px;
+  margin-right: 3%;
+}
+.DESSERTS{
+ margin-top: -85px; 
+}
+}
+@media (max-width: 700px) {
+  .Menu {
+      background-color: whitesmoke;
+    }
+    .Menu i {
+      list-style: none;
+      position: absolute;
+      margin-left: 77%;
+      margin-top: -12%;
+      font-size: 25px;
+      visibility: hidden;
+    }
   }

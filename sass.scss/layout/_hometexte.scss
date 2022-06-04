@@ -1,3 +1,68 @@
+/*
+
+.Proj-restaurants__texte {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  width: 99%;
+  padding-top: 210px;
+
+   
+  p {
+    margin-top: -12px;
+    margin-bottom: 8px;
+    margin-right: 69%;
+    width: 40%;
+    text-align: initial;
+    font-weight: lighter;
+    font-size: 19px;
+  }
+  h3{
+    margin-bottom: 0;
+  }
+  i {
+    margin-left: 80%;
+    margin-top: -15%;
+  
+    font-size: 30px;
+    font-weight: 100;
+  }
+  i:hover{
+    font-weight: 900;
+    color: violet;
+  }
+}
+
+#Proj-restaurants h1 {
+  margin-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  position: absolute;
+}
+.proj-Fonctionnement {
+  display: flex;
+  align-items: baseline;
+  h1 {
+    font-size: 28px;
+    margin: revert;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 30px;
+  }
+  p {
+    text-align: center;
+    max-width: 100%;
+    margin-top: inherit;
+  }
+}
+
+*/
+
+
+@media (max-width: 700px) {
 .Proj-restaurants__texte {
     margin-top: -10px;
     margin-left: 10px;
@@ -19,12 +84,11 @@
       font-size: 19px;
     }
     h3{
-      margin-bottom: 0;
+      margin-bottom: -15px;
     }
     i {
-      margin-left: 80%;
-      margin-top: -15%;
-    
+      margin-left: 82%;
+      margin-top: 5px;
       font-size: 30px;
       font-weight: 100;
     }
@@ -52,4 +116,4 @@
       margin-top: inherit;
     }
   }
-  
+}
