@@ -8,28 +8,41 @@
  i {
   list-style: none;
   position: absolute;
-  margin-left: 77%;
-  margin-top: -12%;
-  font-size: 25px;
+  margin-left: 91%;
+  margin-top: -30px;
+  font-size: 20px;
   visibility: hidden;
 }
 .entrées{
+  margin: auto;
   margin-left: 12px;
   margin-right: 3%;
 }
 .plats{
+  margin: auto;
   margin-top: -85px;
   margin-right: 3%;
 }
 .DESSERTS{
+  margin: auto;
  margin-top: -85px; 
 }
 }
-@media (max-width: 700px) {
+
+@media all and (max-width: 700px){
   .Menu {
       background-color: whitesmoke;
+      display: block;
+    
+    .entrées{
+      margin-left: 0px;
+      margin-right: 0;
     }
-    .Menu i {
+    .plats {
+      margin-top: 0; 
+       margin-right: 0; 
+    }
+     i {
       list-style: none;
       position: absolute;
       margin-left: 77%;
@@ -37,4 +50,17 @@
       font-size: 25px;
       visibility: hidden;
     }
-  }
+    .entrées {
+      margin-left: 0px;
+      margin-right: 0;
+    }
+    .plats {
+      margin-top: 0; 
+       margin-right: 0; 
+    }
+    .DESSERTS {
+    margin-top: 0px;
+    }
+    }
+    
+}

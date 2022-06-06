@@ -1,26 +1,28 @@
 
-/**
-  .projet-commander_btn {
-	margin-top: 15%;
-	margin-bottom: 15%;
+
+  .Proj-commander_btn {
+	  display: block;
+	  margin: auto;
+	margin-top: 2%;
+	margin-left: 42%;
   }
   
   .Proj-commander__btn {
 	display: block;
 	margin: auto;
 	border-radius: 2rem 2rem 2rem 2rem;
-	padding: 16px 50px;
+	padding: 14px 40px;
 	cursor: pointer;
 	border: none;
 	color: white;
-	font-size: 17px;
+	font-size: 18px;
 	background: linear-gradient(0deg, #9356DC, #FF79DA);
 	box-shadow: 5px 5px 5px lightgray;
   }
 .Proj-fonctionnement__btn {
 	display: flex;
-	border-radius: 1rem 1rem 1rem 1rem;
-	padding: 1% 10%;
+	border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+	padding: 6px 54px;
 	cursor: pointer;
 	border: none;
 	background-color: whitesmoke;
@@ -40,10 +42,7 @@
 		color: grey
 	  }
 }
-.Proj-commander_btn{
-	display: block;
-	margin: auto;
-}
+
 .Proj-description__btn{
 border-radius: 2.2rem 2.2rem 2.2rem 2.2rem;
     padding: 26px 22px;
@@ -57,8 +56,8 @@ border-radius: 2.2rem 2.2rem 2.2rem 2.2rem;
     box-shadow: 5px 5px 5px lightgrey;
     margin-bottom: 25%;
 }
-*/
-@media (max-width: 700px) {
+
+@media all and (max-width: 700px) {
 .projet-commander_btn {
 	margin-top: 15%;
 	margin-bottom: 15%;
@@ -102,6 +101,7 @@ border-radius: 2.2rem 2.2rem 2.2rem 2.2rem;
 .Proj-commander_btn{
 	margin-top: 15%;
 	margin-bottom: 15%;
+	margin-left: 0%;
 }
 .Proj-description__btn{
 border-radius: 2rem 2rem 2rem 2rem;

@@ -1,8 +1,7 @@
-/*
 .fondnoir {
   background-color: #303030;
   color: white;
-  padding-bottom: 1%;
+  padding-bottom: 9%;
   padding-top: 1%;
   a {
     color: #dadada;
@@ -18,10 +17,11 @@ li {
   margin-bottom: 5px;
   display: inline-block;
   margin-right: 2%;
+  
 }
  h1 {
     margin-left: 25px;
-    font-size: 28px;
+    font-size: 30px;
     font-family: Shrikhand;
     margin-top: 1%;
   }
@@ -32,40 +32,50 @@ li {
   }
   
 }
-*/
 
-@media (max-width: 700px) {
 
-.fondnoir {
-    background-color: #303030;
-    color: white;
-  
-    a {
-      color: #dadada;
-      font-size: 16px;
-    }
-  }
-  
-  ul {
-    list-style-type: none;
-    padding-left: 25px;
-  }
-  
-  li {
-    margin-bottom: 5px;
-  }
-  
+@media all and (max-width: 700px) {
+
   .fondnoir {
-    h1 {
-      margin-left: 25px;
-      font-size: 20px;
-      font-family: Shrikhand;
-      margin-top: 20px;
-    }
   
-    i {
-      font-size: 14px;
-      margin-right: 5px;
+      background-color: #303030;
+      color: white;
+      padding-bottom: 0;
+      padding-top: 0;
+      display: block;
+      a {
+        color: #dadada;
+        font-size: 16px;
+      }
     }
+    
+    ul {
+      list-style-type: none;
+      padding-left: 25px;
+    }
+    
+    li {
+      margin-bottom: 5px;
+      display: flex;
+    }
+    
+    .fondnoir {
+      h1 {
+        margin-left: 25px;
+        font-size: 20px;
+        font-family: Shrikhand;
+        margin-top: 20px;
+      }
+    
+      i {
+        font-size: 14px;
+        margin-right: 5px;
+      }
+    }
+  .fondnoir li{
+    display: flex;
   }
-}
+  }
+
+
+  

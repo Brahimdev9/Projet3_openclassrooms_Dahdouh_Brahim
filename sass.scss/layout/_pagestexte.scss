@@ -1,5 +1,5 @@
 
-/*
+
 Menu {
   h3 {
     margin-top: 2px;
@@ -56,7 +56,7 @@ padding-left: 15px;
 border-radius: 50px 50px 0px 0px;
 font-size: 19px;
 }
-i {
+.fa-heart{
   margin-left: 84%;
   font-weight: lighter;
   font-size: 25px;
@@ -71,8 +71,66 @@ h2 {
   font-family: Shrikhand;
 }
 }
-*/
-@media (max-width: 700px) {
+.Menu{
+  h3 {
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left: -35px;
+    font-size: 16px;
+  }
+
+  h4 {
+    margin-top: -14px;
+    font-weight: lighter;
+    font-size: 11px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+    margin-left: -35px;
+  }
+
+  p {
+    margin-top: -15px;
+    margin-bottom: 5px;
+    margin-left: 83%;
+    font-size: 12px;
+    font-weight: 900;
+    transform: scale(1);
+  }
+}
+h5 {
+  margin-left: 13px;
+  margin-right: 83%;
+  border-bottom: 3px solid #99E2D0;
+  font-weight: lighter;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.titre {
+  background-color: whitesmoke;
+  margin-top: -50px;
+  padding-top: 15px;
+  padding-left: 17px;
+  border-radius: 50px 50px 0px 0px;
+  font-size: 22px;
+
+  i {
+    margin-left: 90%;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: -20px;
+  }
+
+  h2 {
+    margin-bottom: -28px;
+    font-family: Shrikhand;
+    color: black;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 700px) {
 Menu {
   h3 {
     margin-top: 2px;
@@ -156,16 +214,17 @@ transition-duration: 1000ms;
 .Menu {
   h3 {
     margin-top: 2px;
-    margin-left: -12%;
+    margin-left: 0%;
     font-weight: 500;
+    font-size: 18px;
   }
   h4 {
     margin-top: -14px;
-    margin-left: -12%;
     font-weight: lighter;
     font-size: 15px;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    margin-left: 0;
   }
   p {
     margin-top: -26px;
@@ -183,7 +242,7 @@ padding-left: 15px;
 border-radius: 50px 50px 0px 0px;
 font-size: 19px;
 
-i {
+.fa-heart{
   margin-left: 84%;
   font-weight: lighter;
   font-size: 25px;

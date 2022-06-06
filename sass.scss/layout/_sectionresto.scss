@@ -1,46 +1,7 @@
 
-@media (max-width: 700px) {
-.Proj-restaurants__Nouveau {
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 35px #dadada;
-    display: block;
-    margin: auto;
-    padding-bottom: 90px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    width: 90%;
-  }
-  #Proj-restaurants {
-    background-color: whitesmoke;
-    margin-top: 20%;
-    padding-top: 10%;
-  }
-  .Proj-restaurants__image {
-    height: 210px;
-    background-size: cover;
-    background-position: bottom;
-    border-radius: 15px 15px 0 0;
-    width: 100%;
-  }
-  .gout_img {
-    margin-top: 15px;
-  }
-  .nouveau{
-    position: absolute;
-    margin-left: 61%;
-    width: 30%;
-  }
- .nouveau p{
-   background-color: #99E2D0;
-    font-size: 18px;
-    width: 100%;
-    height: 25px;
-    padding-top: 5px;
-    color: forestgreen;
- }
-}
-/*
+
+
+
 .Proj-restaurants__Nouveau {
   border-radius: 20px;
   background-color: white;
@@ -50,7 +11,7 @@
   padding-bottom: 90px;
   cursor: pointer;
   width: 90%;
-  margin-top: 6%;
+  margin-top: 7%;
   margin-left: 2%;
 }
 #Proj-restaurants {
@@ -61,8 +22,8 @@
   flex-direction: row;
   align-items: baseline;
   background-color: whitesmoke;
-  margin-top: 5%;
-
+  margin-top: 7%;
+  padding-bottom: 7%;
 }
 .Proj-restaurants__image {
   height: 210px;
@@ -89,4 +50,44 @@
   padding-left: 20%;
   color: forestgreen;
 }
-*/
+@media (max-width: 700px) {
+  .Proj-restaurants__Nouveau {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 35px #dadada;
+    display: block;
+    margin: auto;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 90%;
+  }
+  #Proj-restaurants {
+    background-color: whitesmoke;
+    margin-top: 20%;
+    display: block;
+  }
+  .Proj-restaurants__image {
+    height: 210px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+  }
+  
+  .nouveau{
+    position: absolute;
+    margin-left: 65%;
+    width: 30%;
+    margin-top: 0;
+  }
+ .nouveau p{
+   background-color: #99E2D0;
+    font-size: 16px;
+    width: 65%;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 9%;
+    color: forestgreen;
+ }
+}
