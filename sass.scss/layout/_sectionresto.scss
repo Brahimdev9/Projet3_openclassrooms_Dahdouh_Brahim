@@ -50,6 +50,58 @@
   padding-left: 20%;
   color: forestgreen;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+  .Proj-restaurants__Nouveau {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 35px #dadada;
+    display: block;
+    margin: auto;
+    padding-bottom: 70px;
+    cursor: pointer;
+    width: 165%;
+    margin-top: 8%;
+    margin-left: 2%;
+  }
+  #Proj-restaurants {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: whitesmoke;
+    margin-top: 7%;
+    padding-bottom: 7%;
+  }
+
+
+  .Proj-restaurants__image {
+    height: 165px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+  }
+  .gout_img {
+    margin-top: 0px;
+  }
+  .nouveau{
+    position: absolute;
+    margin-left: 12%;
+    width: 5%;
+    margin-top: 0px;
+  }
+  .nouveau p{
+   background-color: #99E2D0;
+    font-size: 14px;
+    width: 158%;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 20%;
+    color: forestgreen;
+  }
+}
 @media (max-width: 700px) {
   .Proj-restaurants__Nouveau {
     border-radius: 20px;

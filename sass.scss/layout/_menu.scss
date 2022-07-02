@@ -2,20 +2,16 @@
 .Menu {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 5%;
+  padding-bottom: 0px;
   background-color: whitesmoke;
 
- i {
-  list-style: none;
-  position: absolute;
-  margin-left: 91%;
-  margin-top: -30px;
-  font-size: 20px;
+ ;
+.fa-circle-check{
   visibility: hidden;
 }
 .entrées{
   margin: auto;
-  margin-left: 12px;
+  margin-left: 45px;
   margin-right: 3%;
 }
 .plats{
@@ -25,8 +21,55 @@
 }
 .DESSERTS{
   margin: auto;
- margin-top: -85px; 
+ margin-top: -85px;
+ margin-right: 45px; 
 }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+  
+.Menu {
+  background-color: whitesmoke;
+  display: block;
+
+.entrées{
+  margin-left: 0px;
+  margin-right: 0;
+}
+.plats {
+  margin-top: 0; 
+   margin-right: 0; 
+}
+.fa-circle-check{
+  list-style: none;
+  position: absolute;
+  margin-left: 291px;
+  margin-top: -50px;
+  font-size: 27px;
+  visibility: hidden;
+}
+.fa-circle-check:hover {
+  list-style: none;
+  position: absolute;
+  margin-left: 291px;
+  margin-top: -50px;
+  font-size: 27px;
+  visibility: visible;
+  color: white;
+}
+.entrées {
+  margin-left: 0px;
+  margin-right: 0;
+}
+.plats {
+  margin-top: 0; 
+   margin-right: 0; 
+}
+.DESSERTS {
+margin-top: 0px;
+margin-right: 0px;
+}
+}
+
 }
 
 @media all and (max-width: 700px){
@@ -42,13 +85,22 @@
       margin-top: 0; 
        margin-right: 0; 
     }
-     i {
+    .fa-circle-check{
       list-style: none;
       position: absolute;
-      margin-left: 77%;
-      margin-top: -12%;
-      font-size: 25px;
+      margin-left: 291px;
+      margin-top: -50px;
+      font-size: 27px;
       visibility: hidden;
+    }
+    .fa-circle-check:hover {
+      list-style: none;
+      position: absolute;
+      margin-left: 291px;
+      margin-top: -50px;
+      font-size: 27px;
+      visibility: visible;
+      color: white;
     }
     .entrées {
       margin-left: 0px;
@@ -60,6 +112,7 @@
     }
     .DESSERTS {
     margin-top: 0px;
+    margin-right: 0px;
     }
     }
     

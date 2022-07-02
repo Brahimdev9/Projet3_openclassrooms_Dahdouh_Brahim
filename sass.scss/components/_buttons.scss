@@ -1,117 +1,140 @@
+ 
 
-
-  .Proj-commander_btn {
-	  display: block;
-	  margin: auto;
-	margin-top: 2%;
-	margin-left: 42%;
-  }
-  
-  .Proj-commander__btn {
-	display: block;
-	margin: auto;
-	border-radius: 2rem 2rem 2rem 2rem;
-	padding: 14px 40px;
-	cursor: pointer;
-	border: none;
-	color: white;
-	font-size: 18px;
-	background: linear-gradient(0deg, #9356DC, #FF79DA);
-	box-shadow: 5px 5px 5px lightgray;
-  }
-.Proj-fonctionnement__btn {
+ .Proj-commander_btn{
 	display: flex;
-	border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
-	padding: 6px 54px;
-	cursor: pointer;
-	border: none;
-	background-color: whitesmoke;
-	box-shadow: 1px 5px 5px lightgrey;
 	margin: auto;
-	margin-top: 7%;
-	
-	&:hover {
-		background-color: lavender;
-		box-shadow: 0px 0px 35px #dadada;
-	}
+ }
+ .Proj-commander__btn {
+ 	display: block;
+ 	margin: auto;
+	 width: max-content;
+ 	border-radius: 2rem 2rem 2rem 2rem;
+ 	padding: 14px 60px;
+ 	cursor: pointer;
+ 	border: none;
+ 	color: white;
+ 	font-size: 26px;
+ 	background: linear-gradient(0deg, #9356DC, #FF79DA);
+ 	box-shadow: 5px 5px 5px lightgray;
+	margin-bottom: 25px;
+ }
 
-	.fa-solid{
-		margin: auto;
-		margin-left: -37%;
-		font-size: 18px;
-		color: grey
-	  }
-}
+ .Proj-fonctionnement__btn {
+ 	display: flex;
+ 	border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+ 	padding: 6px 54px;
+ 	cursor: pointer;
+ 	border: none;
+ 	background-color: whitesmoke;
+ 	box-shadow: 1px 5px 5px lightgrey;
+ 	margin: auto;
+ 	margin-top: 7%;
 
-.Proj-description__btn{
-border-radius: 2.2rem 2.2rem 2.2rem 2.2rem;
-    padding: 26px 22px;
+ 	&:hover {
+ 		background-color: lavender;
+ 		box-shadow: 0px 0px 35px #dadada;
+ 	}
+
+ 	.fa-solid {
+ 		margin: auto;
+ 		margin-left: -37%;
+ 		font-size: 18px;
+ 		color: grey
+ 	}
+ }
+
+ .Proj-description__btn {
+ 	border-radius: 2.2rem 2.2rem 2.2rem 2.2rem;
+ 	padding: 26px 22px;
+ 	cursor: pointer;
+ 	border: none;
+ 	color: white;
+ 	font-size: 24px;
+ 	background: linear-gradient(0deg, #9356DC, #FF79DA);
+ 	box-shadow: 5px 5px 5px lightgrey;
+ 	margin-bottom: 25%;
+ }
+ 
+
+ @media screen and (min-width: 768px) and (max-width: 1025px) { 
+
+    .Proj-fonctionnement__btn{
+	display: flex;
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding: 0% 3%;
     cursor: pointer;
     border: none;
-    color: white;
-    font-size: 24px;
-    background: linear-gradient(
-0deg
-, #9356DC, #FF79DA);
-    box-shadow: 5px 5px 5px lightgrey;
-    margin-bottom: 25%;
-}
-
-@media all and (max-width: 700px) {
-.projet-commander_btn {
-	margin-top: 15%;
-	margin-bottom: 15%;
-  }
-  
-  .Proj-commander__btn {
-	display: block;
-	margin: auto;
-	border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
-	padding: 16px 50px;
-	cursor: pointer;
-	border: none;
-	color: white;
-	font-size: 16px;
-	background: linear-gradient(0deg, #9356DC, #FF79DA);
-	box-shadow: 5px 5px 5px lightgray;
-  }
-.Proj-fonctionnement__btn {
-	display: flex;
-	border-radius: 1rem 1rem 1rem 1rem;
-	padding: 2% 23%;
-	cursor: pointer;
-	border: none;
-	margin-top: 15px;
-	background-color: whitesmoke;
-	box-shadow: 1px 5px 5px lightgrey;
-	
-	
-	&:hover {
-		background-color: lavender;
-		box-shadow: 0px 0px 35px #dadada;
+    background-color: whitesmoke;
+    box-shadow: 1px 5px 5px lightgrey;
+ }
+	Fonctionnement h1 {
+		font-size: 24px;
+		margin: revert;
+		position: absolute;
+		margin-right: auto;
+		margin-left: 30px;
 	}
+}
+ 
+ @media all and (max-width: 700px) {
+ 	.projet-commander_btn {
+ 		margin-top: 15%;
+ 		margin-bottom: 15%;
+ 	}
 
-	.fa-solid{
-		margin: auto;
-		margin-left: -37%;
-		font-size: 18px;
-		color: grey
-	  }
-}
-.Proj-commander_btn{
-	margin-top: 15%;
-	margin-bottom: 15%;
-	margin-left: 0%;
-}
-.Proj-description__btn{
-border-radius: 2rem 2rem 2rem 2rem;
-padding: 16px 22px;
-cursor: pointer;
-border: none;
-color: white;
-font-size: 20px;
-background: linear-gradient(0deg, #9356DC , #FF79DA);
-box-shadow: 5px 5px 5px lightgray;
-margin-bottom: 25%;
-}
-}
+ 	.Proj-commander__btn {
+ 		display: block;
+ 		margin: auto;
+ 		border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+ 		padding: 16px 50px;
+ 		cursor: pointer;
+ 		border: none;
+ 		color: white;
+ 		font-size: 16px;
+ 		background: linear-gradient(0deg, #9356DC, #FF79DA);
+ 		box-shadow: 5px 5px 5px lightgray;
+		margin-bottom: 25px;
+ 	}
+
+ 	.Proj-fonctionnement__btn {
+ 		display: flex;
+ 		border-radius: 1rem 1rem 1rem 1rem;
+ 		padding: 2% 23%;
+ 		cursor: pointer;
+ 		border: none;
+ 		margin-top: 15px;
+ 		background-color: whitesmoke;
+ 		box-shadow: 1px 5px 5px lightgrey;
+
+
+ 		&:hover {
+ 			background-color: lavender;
+ 			box-shadow: 0px 0px 35px #dadada;
+ 		}
+
+ 		.fa-solid {
+ 			margin: auto;
+ 			margin-left: -37%;
+ 			font-size: 18px;
+ 			color: grey
+ 		}
+ 	}
+
+ 	.Proj-commander_btn {
+ 		margin-top: 15%;
+ 		margin-bottom: 15%;
+ 		margin-left: 0%;
+ 	}
+
+ 	.Proj-description__btn {
+ 		border-radius: 2rem 2rem 2rem 2rem;
+ 		padding: 16px 22px;
+ 		cursor: pointer;
+ 		border: none;
+ 		color: white;
+ 		font-size: 20px;
+ 		background: linear-gradient(0deg, #9356DC, #FF79DA);
+ 		box-shadow: 5px 5px 5px lightgray;
+ 		margin-bottom: 25%;
+ 	}
+ }

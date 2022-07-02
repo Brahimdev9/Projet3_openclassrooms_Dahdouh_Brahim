@@ -5,7 +5,7 @@
   padding-top: 1%;
   a {
     color: #dadada;
-    font-size: 28px;
+    font-size: 20px;
   }
 
   ul {
@@ -27,12 +27,23 @@ li {
   }
 
   i {
-    font-size: 23px;
+    font-size: 20px;
     margin-right: 5px;
   }
   
 }
-
+@media (min-width: 700px) and (max-width: 1024px) { 
+  .fondnoir {
+    background-color: #303030;
+    color: white;
+    padding-bottom: 65px;
+    padding-top: 10px;
+    display: block;
+    li{
+      display: initial;
+    }
+}
+}
 
 @media all and (max-width: 700px) {
 
@@ -47,6 +58,7 @@ li {
         color: #dadada;
         font-size: 16px;
       }
+     
     }
     
     ul {

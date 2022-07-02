@@ -15,7 +15,7 @@
     margin-top: -12px;
     margin-bottom: 8px;
     margin-right: 69%;
-    width: 40%;
+    width: 60%;
     text-align: initial;
     font-weight: lighter;
     font-size: 19px;
@@ -86,8 +86,81 @@
   }
 }
 
+@media (min-width: 700px) and (max-width: 1024px) { 
+  .proj-Fonctionnement h1 {
+    font-size: 24px;
+    margin: revert;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Proj-fonctionnement__btn .fa-solid {
+  margin: auto;
+  margin-left: -5%;
+  font-size: 15px;
+  color: grey;
+}
+.Proj-fonctionnement__btn {
+  .fa-1, .fa-2, .fa-3{
+  font-size: 14px;
+  margin: auto;
+  margin-left: -24px;
+  margin-top: 13px;
+  position: absolute;
+  color: white;
+  }
+  .fa-2{
+    margin-left: -26px;
+  }
+  .fa-3{
+    margin-left: -25px;
+    margin-top: 13px;
+    
+  }
+  .fa-circle{
+    font-size: 20px;
+    margin: auto;
+    margin-left: -4%;
+    margin-top: 11px;
+    position: absolute;
+    color: #9356DC;
+  }
+}
+.Proj-restaurants__texte {
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  width: 99%;
+  padding-top: 210px;
+
+ h3 {
+  margin-bottom: 0px;
+  margin-top: -35px;
+}
+p {
+  margin-top: -27px;
+  margin-bottom: 8px;
+  margin-right: 69%;
+  width: 60%;
+  text-align: initial;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+i {
+  margin-left: 75%;
+  margin-top: -15%;
+  font-size: 24px;
+  font-weight: 100;
+}
 
 
+}
+}
 
 @media all and (max-width: 700px) {
 .Proj-restaurants__texte {
@@ -119,10 +192,11 @@
       font-size: 30px;
       font-weight: 100;
     }
-    i:hover{
-      font-weight: 900;
+    i:after{
       color: violet;
+      font-weight: 900;
     }
+    
   }
   
   #Proj-restaurants h1 {
